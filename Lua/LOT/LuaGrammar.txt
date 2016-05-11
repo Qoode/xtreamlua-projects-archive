@@ -1,0 +1,27 @@
+Grammaire Lua :
+
+block 			-> do [chunk]* end | [chunk]*
+chunk			-> 					( A verifier = ajouter tout les appelles possible, if , for, while, block , etc ...	
+if				-> if [explist] then [block] (elseif [explist] then [block])* (else [block])? end  
+for				-> for [var] = [exp] , [exp] (, [exp])? do [block] end
+forlist 		-> for [var] , [var] in [exp] do [block] end
+exp				-> functioncall | var | table |		( Ajouter la definition de valeur : number et string 
+explist			-> [exp]* [explist]					( A verifier)
+while			-> while [exp] do [block] end
+repeat			-> do [block] repeat [exp]
+var				-> 
+varlist			->
+arglist			->
+function		-> function [name] ([arglist]) [block] end
+functioncall	-> [name]([explist])
+name 			-> [a-zA-Z_]+[a-zA-Z0-9_]*
+table 			->
+____________________________________________________________________________________________________________________________
+
+Schema global :
+
+	- Chargement du fichier
+	- Evaluation du contenu et construction d'un arbre sytaxique abstrait
+	- Obsfucation directement sur l'arbre 
+	- Parsing de l'arbre, reconstruction du fichier
+	- Sauvegarde ou affichage 

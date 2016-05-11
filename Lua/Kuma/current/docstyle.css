@@ -1,0 +1,52 @@
+html {background-color: white;}
+body {
+	font-family : "Trebuchet MS";
+	font-size : 10pt;
+	margin: 0;
+}
+.func{ font-weight: bold; color: darkblue; }
+.class { font-weight: bold; color: darkgreen; }
+.class a:link a:visited a {color: darkgreen; font-weight: bold;}
+.type { font-weight: bold; font-size: 10pt; color: red; }
+.title { border-bottom: 1px solid #bbbbee; font-size: 12pt;}
+
+#main {
+		width: 100%;
+		height: 95%;
+		background-color: #eeeeFF;
+	  }
+	  
+#menu {
+		padding: 10px;
+		width: 15%;
+		background-color: #eeeeFF;
+		height: 100%;
+		vertical-align: top;
+		overflow: scroll; 
+}
+
+#footer {
+	text-align: center;
+	font-size: 10px;
+}
+
+#content{
+			vertical-align: top;
+			border: 1px solid #bbbbee;
+			background-color: white;
+			padding: 20px;
+}
+
+.author{
+	padding: 10px;
+	font-size: 10pt;
+	border: 1px dotted #bbbbee;
+}
+.desc {
+	margin: 20px;
+}
+a.menu,a.menu:link,a.menu:visited {color: darkblue;font-weight: bold; text-decoration:none; font-size:10pt;}
+a.menu:hover {color: darkblue;font-weight: bold; text-decoration: none;font-size:10pt;}
+
+a,a:link,a:visited {color: black;font-weight: bold; text-decoration:none; font-size:10pt;}
+a:hover {color: black;font-weight: bold; text-decoration: underline;font-size:10pt;}

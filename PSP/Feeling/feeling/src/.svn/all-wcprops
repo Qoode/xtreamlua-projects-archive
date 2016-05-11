@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 26
+/svn/!svn/ver/44/trunk/src
+END
+game.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/44/trunk/src/game.hpp
+END
+tools.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/37/trunk/src/tools.cpp
+END
+menu.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/40/trunk/src/menu.cpp
+END
+main.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/40/trunk/src/main.cpp
+END
+tools.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/37/trunk/src/tools.hpp
+END
+game.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/44/trunk/src/game.cpp
+END
+menu.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/44/trunk/src/menu.hpp
+END

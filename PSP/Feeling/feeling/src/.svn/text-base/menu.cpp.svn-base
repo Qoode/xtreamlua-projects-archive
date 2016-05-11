@@ -1,0 +1,11 @@
+/************************************************************************
+* Menu 
+* Author : Shaolan
+* Version : 1.0
+* Website : http://shaolan.net
+*/
+
+Menu()
+~Menu()
+void draw()
+void update()
